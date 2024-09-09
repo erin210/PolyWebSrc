@@ -773,379 +773,13 @@
     <!-- Main Content op -->
     <div id="mainArea" class="pageIndex">
         <!-- SALE op -->
-<<<<<<< HEAD
         <link href="https://photo.polylulu.com.tw/photo/act/20240904/new.css?v=20240904" rel="stylesheet" />
         <!-- <link href="index.css" rel="stylesheet" /> -->
         <link href="new.css" rel="stylesheet" />
-=======
-        <style>
-            #areaNEWpd {
-                display: none;
-            }
-            
-            .slick-dotted.slick-slider {
-                margin-bottom: -11px;
-            }
-            
-            .showPC,
-            .links.showPC {
-                display: block;
-            }
-            
-            .showM,
-            .links.showM {
-                display: none;
-            }
-            
-            .picBgset {
-                position: relative;
-                width: 1280px;
-                margin: 0 auto;
-            }
-            
-            .picBgset.bgtit {
-                padding: 0 37px;
-                box-sizing: border-box;
-            }
-            
-            .picBgset h1 {
-                width: 100%;
-                font-size: 20px;
-                font-weight: 600;
-                letter-spacing: .5em;
-                color: #242424;
-                text-align: center;
-                font-family: 'Noto Sans TC', "Microsoft JhengHei", arial;
-                margin-top: 78px;
-                padding: 45px 0 35px 0;
-                box-sizing: border-box;
-                border-top: 1px solid #bfbfbf;
-                transform: scale(1.05, 1);
-                padding-left: 1em;
-            }
-            
-            .picBgset.toptit h1 {
-                margin-top: 15px;
-            }
-            
-            .picBgset.bgtit.tit_s h1 {
-                margin-top: 28px !important;
-            }
-            
-            .picBgset .links {
-                display: flex;
-                width: 1280px;
-                margin: 0 auto;
-                flex-grow: 1;
-                justify-content: space-between;
-            }
-            
-            .picBgset .links a {
-                width: 100%;
-                /* height: 50vw; */
-                box-sizing: border-box;
-                /* border: 1px solid #f00; */
-            }
-            
-            .picBgset>img {
-                width: 100%;
-            }
-            
-            .picBgset.bg_sp .links {
-                flex-wrap: wrap;
-            }
-            
-            .picBgset.bg_sp .links a {
-                width: 50%;
-                flex-basis: 50%;
-            }
-            
-            .picBgset.bg_sp .links a:nth-child(even) img,
-            .picBgset.bg_event .links a:nth-child(even) img {
-                margin-left: auto;
-                /* border: 1px solid #f00; */
-            }
-            
-            .picBgset.bg_sp .links a {
-                margin-bottom: 50px;
-            }
-            /* .picBgset.bg_news .links,
-    .picBgset.bg_intro .links {
-        padding-left: 12px;
-    } */
-            
-            .picBgset.bg_sp .links a img {
-                width: auto;
-            }
-            
-            .picBgset.bg_brand {
-                width: 100%;
-                background-color: #292728;
-            }
-            
-            .picBgset.bg_brand>div {
-                position: relative;
-                width: 1280px;
-                margin: 0 auto;
-                padding: 60px 0;
-            }
-            
-            .picBgset.bg_brand>div a {
-                margin: 0 12px;
-            }
-            /* .picBgset.bg_brand>div img {
-        width: 100%;
-    } */
-            
-            .picBgFull {
-                margin-bottom: 40px;
-            }
-            
-            .picBgFull a img {
-                width: 100%;
-            }
-            
-            .btn_more {
-                position: relative;
-                width: 214px;
-                /* border: 1px solid #333; */
-                color: #333;
-                display: block;
-                margin: 3em auto;
-                font-size: 15px;
-                text-align: center;
-                /* padding: 0.3em 1em; */
-                font-weight: bold;
-                transition: .4s;
-                letter-spacing: 0;
-                text-indent: -0.7em;
-                text-decoration: none;
-                line-height: 1.7em;
-                /* opacity: .8; */
-                /* font-family: "Microsoft JhengHei", arial; */
-                /* transform: scale(1.05, 1); */
-            }
-            
-            .btn_more:hover {
-                /* opacity: 1; */
-            }
-            
-            .gray_bar:after {
-                /* background-color: rgba(245, 243, 244, 0.3); */
-                background-color: transparent;
-            }
-            
-            .section-instagram .wrapper {
-                margin-bottom: 0;
-            }
-            
-            .picBgset.topSALE_BN {
-                width: 100%;
-                display: block;
-                overflow: hidden;
-            }
-            
-            .picBgset.topSALE_BN>a {
-                line-height: 1;
-            }
-            
-            .picBgset.topSALE_BN>a>img {
-                width: 100%;
-            }
-            
-            @media(min-width: 1200px) {
-                .picBgset.bg_brand>div img,
-                .picBgset .links a img {
-                    width: auto !important;
-                    max-width: none !important;
-                }
-                .topEvent,
-                #section-instagram {
-                    max-width: 1920px !important;
-                    margin: 0 auto;
-                }
-            }
-            
-            @media(max-width: 1279px) and (min-width:768px) {
-                .picBgset,
-                .picBgset .links,
-                .picBgset.bg_brand>div,
-                .picBgset .links a img,
-                .picBgset.bg_sp .links a img {
-                    width: 100%;
-                    /* border: 1px solid #f00; */
-                }
-                .picBgset,
-                .picBgset .links a {
-                    display: inline-block !important;
-                }
-                .picBgset.bg_sp .links a {
-                    padding: 10px;
-                }
-            }
-            
-            @media (min-width: 768px) {
-                .picBgset.bg_news .links a,
-                .picBgset.bg_intro .links a {
-                    /* margin: 0 5px; */
-                    /* text-align: center; */
-                    display: contents;
-                }
-                .picBgset.bg_news .links a.showM,
-                .picBgset.bg_intro .links a.showM {
-                    display: none !important;
-                }
-            }
-            /* 限時活動再最上方的時候 */
-            
-            .picBgset.bg_event {
-                margin-bottom: 50px;
-            }
-            
-            @media (max-width: 767px) {
-                /* 限時活動再最上方的時候 */
-                .picBgset.bg_event {
-                    margin-bottom: 0;
-                }
-                .showPC {
-                    display: none;
-                }
-                .showM {
-                    display: block !important;
-                }
-                .topEvent {
-                    /* background-color: #f4f0e5; */
-                }
-                .sliderNew_title {
-                    color: #f4f0e5;
-                    font-size: 18px;
-                    font-family: "Baskerville Old Face", "Times New Roman", Times, serif !important;
-                    padding: 0;
-                    text-align: center;
-                    height: auto !important;
-                }
-                .picBgset h1,
-                .picBgset.toptit h1 {
-                    margin: 1.5em 0 .5em 0;
-                    padding: 1.5em 0;
-                    font-size: 14px;
-                }
-                .picBgset .links {
-                    width: 100% !important;
-                }
-                .picBgset .links a {
-                    /* height: 150vw; */
-                }
-                .picBgset img,
-                .picBgset .links a>img {
-                    width: 100%;
-                }
-                .picBgset.bgtit {
-                    padding: 0 20px;
-                }
-                /* == 特企 / 活動 / 支線 ==*/
-                .picBgset.bg_sp .links,
-                .picBgset.bg_event .links,
-                .picBgset.bg_brand>div .links {
-                    /* flex-direction: column; */
-                    display: block;
-                }
-                .picBgset.bg_sp .links a img {
-                    width: 100%;
-                }
-                /* == 新品 ==*/
-                .picBgset.bg_news .links {
-                    flex-wrap: wrap;
-                    align-content: flex-start;
-                }
-                .picBgset.bg_news .links a {
-                    flex-basis: 50%;
-                    margin: 0;
-                    padding: 10px;
-                    /* height: 75vw !important; */
-                }
-                /* .picBgset.bg_news .links a:first-child {
-            display: none;
-        } */
-                /* == 活動 == */
-                .picBgset.bg_event {}
-                /* == 單品分類 ==*/
-                .picBgset.bg_intro {
-                    padding: 0 10px;
-                }
-                .picBgset.bg_intro .links {
-                    flex-wrap: wrap;
-                    align-content: flex-start;
-                }
-                .picBgset.bg_intro .links a {
-                    flex-basis: 50%;
-                    margin: 0;
-                    padding: 0 5px 17px 5px;
-                    /* height: 50vw !important; */
-                }
-                /* == 支線 ==*/
-                .picBgset,
-                .picBgset.bg_brand>div {
-                    position: relative;
-                    width: 100%;
-                }
-                .picBgset.bg_brand {
-                    background-color: transparent;
-                }
-                .picBgset.bg_brand>div {
-                    padding: 0;
-                }
-                .picBgset.bg_brand>div a {
-                    /* height: 60vw !important; */
-                    margin: 0;
-                }
-                .picBgset.bg_news .links a.showM,
-                .picBgset.bg_intro .links a.showM {
-                    display: block !important;
-                }
-                #container .section-instagram {
-                    margin-top: 0 !important;
-                }
-                #section-instagram .newTitle {
-                    background: url(https://photo.polylulu.com.tw/photo/act/indextit/title_ig_m.jpg) no-repeat center top;
-                    background-size: auto 100%;
-                    height: 36px;
-                }
-                #section-instagram .newTitle h1 {
-                    display: none;
-                }
-                #container [class^="section-"] {
-                    margin-top: 0;
-                }
-                #section-categories {
-                    /* background-color: #f3efe3; */
-                    max-width: 100%;
-                    padding-top: 3em;
-                }
-                #section-categories .newTitle {
-                    background: url(https://photo.polylulu.com.tw/photo/act/indextit/title_bs_m.jpg) no-repeat center top;
-                    background-size: auto 100%;
-                    height: 36px;
-                }
-                #section-categories .newTitle h1,
-                #section-categories {
-                    display: none;
-                }
-            }
-        </style>
-        <script>
-            $(function() {
-                $('body, html').animate({
-                    scrollTop: 0
-                }, 300);
-            });
-        </script>
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
         <!-- 輪播大圖 op -->
         <section id="indexTopBN">
             <div class="indexTopBN slick">
                 <div>
-<<<<<<< HEAD
                     <a href="https://www.polylulu.com.tw/productlist?KeyWord=pim:2409030002&actno=24083002"
                        title="新品上市">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexbn-20240904-pc-01.jpg?v=20240904"
@@ -1154,23 +788,12 @@
                              loading="lazy">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexbn-20240904-m-01.jpg?v=20240904"
                              alt="新品上市"
-=======
-                    <a href="https://www.polylulu.com.tw/productsale?KeyWord=pi:6599340501&actno=24041202&onsale=1"
-                       title="2件88折">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-pc-01.jpg?v=20240424"
-                             alt="2件88折"
-                             class="indexTopBN_pc"
-                             loading="lazy">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-m-01.jpg?v=20240424"
-                             alt="2件88折"
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
                              class="indexTopBN_m"
                              loading="lazy">
                     </a>
                 </div>
                 <!-- ================== -->
                 <div style="display: none;">
-<<<<<<< HEAD
                     <a href="https://www.polylulu.com.tw/productsale?KeyWord=pi:6599349201&actno=24090301&onsale=1"
                        title="SUMMER SALE 2件49折">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexbn-20240904-pc-02.jpg?v=20240904"
@@ -1191,22 +814,12 @@
                              class="indexTopBN_pc"
                              loading="lazy">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexbn-20240904-m-03.jpg?v=20240904"
-=======
-                    <a href="https://www.polylulu.com.tw/productlist?KeyWord=pim:2404180002&actno=24041802"
-                       title="新品上市">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-pc-02.jpg?v=20240424"
-                             alt="新品上市"
-                             class="indexTopBN_pc"
-                             loading="lazy">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-m-02.jpg?v=20240424"
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
                              alt="新品上市"
                              class="indexTopBN_m"
                              loading="lazy">
                     </a>
                 </div>
                 <div style="display: none;">
-<<<<<<< HEAD
                     <a href="https://www.polylulu.com.tw/productlist?KeyWord=pim:2409030002&actno=24083002"
                        title="新品上市">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexbn-20240904-pc-04.jpg?v=20240904"
@@ -1215,22 +828,11 @@
                              loading="lazy">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexbn-20240904-m-04.jpg?v=20240904"
                              alt="新品上市"
-=======
-                    <a href="https://www.polylulu.com.tw/productstylePage?KeyWord=24040801"
-                       title="輕涼衣">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-pc-03.jpg?v=20240424"
-                             alt="輕涼衣"
-                             class="indexTopBN_pc"
-                             loading="lazy">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-m-03.jpg?v=20240424"
-                             alt="輕涼衣"
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
                              class="indexTopBN_m"
                              loading="lazy">
                     </a>
                 </div>
                 <div style="display: none;">
-<<<<<<< HEAD
                     <a href="https://www.polylulu.com.tw/productstyle?KeyWord=pim:2409030001&actno=24090307"
                        title="質感背心合輯">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexbn-20240904-pc-05.jpg?v=20240904"
@@ -1239,22 +841,11 @@
                              loading="lazy">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexbn-20240904-m-05.jpg?v=20240904"
                              alt="質感背心合輯"
-=======
-                    <a href="https://www.polylulu.com.tw/miss"
-                       title="MISS">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-pc-04.jpg?v=20240424"
-                             alt="MISS"
-                             class="indexTopBN_pc"
-                             loading="lazy">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-m-04.jpg?v=20240424"
-                             alt="MISS"
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
                              class="indexTopBN_m"
                              loading="lazy">
                     </a>
                 </div>
                 <div style="display: none;">
-<<<<<<< HEAD
                     <a href="https://www.polylulu.com.tw/miss"
                        title="MISS">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexbn-20240904-pc-06.jpg?v=20240904"
@@ -1263,22 +854,11 @@
                              loading="lazy">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexbn-20240904-m-06.jpg?v=20240904"
                              alt="MISS"
-=======
-                    <a href="https://www.polylulu.com.tw/mori"
-                       title="MORI">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-pc-05.jpg?v=20240424"
-                             alt="MORI"
-                             class="indexTopBN_pc"
-                             loading="lazy">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-m-05.jpg?v=20240424"
-                             alt="MORI"
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
                              class="indexTopBN_m"
                              loading="lazy">
                     </a>
                 </div>
                 <div style="display: none;">
-<<<<<<< HEAD
                     <a href="https://www.polylulu.com.tw/mua"
                        title="MUA">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexbn-20240904-pc-07.jpg?v=20240904"
@@ -1295,28 +875,10 @@
         </section>
         <!-- 輪播大圖 ed -->
 
-=======
-                    <a href="https://www.polylulu.com.tw/productstylePage?KeyWord=24030601"
-                       title="董仔">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-pc-06.jpg?v=20240424"
-                             alt="董仔"
-                             class="indexTopBN_pc"
-                             loading="lazy">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20240424/indexbn-20240424-m-06.jpg?v=20240424"
-                             alt="董仔"
-                             class="indexTopBN_m"
-                             loading="lazy">
-                    </a>
-                </div> 
-            </div>
-        </section>
-        <!-- 輪播大圖 ed -->
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
         <div class="topEvent">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
-<<<<<<< HEAD
             <!-- SALE區 op-->
             <!-- <div class="picBgset topSALE_BN">
                 <a href="https://www.polylulu.com.tw/productsale?KeyWord=pi:6599303601&actno=2022111101&onsale=1">
@@ -1324,14 +886,11 @@
                     <img src="https://photo.polylulu.com.tw/photo/act/20221114/hotSale-m-01.jpg" alt="" class="showM">
                 </a>
             </div> -->
-=======
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
             <div class="picBgset bgtit toptit wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                 <h1>風格企劃</h1>
             </div>
             <div class="picBgset bg_sp wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                 <div class="links">
-<<<<<<< HEAD
                     <a href="https://www.polylulu.com.tw/productstylePage?KeyWord=23031501" title="開學魅力加倍穿搭款">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexSp-pc-01.jpg" alt="開學魅力加倍穿搭款" class="showPC">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexSp-m-01.jpg" alt="開學魅力加倍穿搭款" class="showM">
@@ -1347,23 +906,6 @@
                     <a href="https://www.polylulu.com.tw/mua" title="MUA">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexSp-pc-04.jpg" alt="MUA" class="showPC">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexSp-m-04.jpg" alt="MUA" class="showM">
-=======
-                    <a href="https://www.polylulu.com.tw/productstyle?KeyWord=cid:111110&actno=2022102102">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSp-pc-01.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSp-m-01.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/productstyle?KeyWord=cid:111104&actno=2022110702">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSp-pc-02.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSp-m-02.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/mua">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSp-pc-03.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSp-m-03.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/miss">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSp-pc-04.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSp-m-04.jpg" alt="" class="showM">
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
                     </a>
                 </div>
             </div>
@@ -1372,7 +914,6 @@
             </div>
             <div class="picBgset bg_news wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                 <div class="links">
-<<<<<<< HEAD
                     <a href="https://www.polylulu.com.tw/product?saleid=9106020904&color=A63">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexNews-pc-01.jpg" alt="" class="showPC">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexNews-m-01.jpg" alt="" class="showM">
@@ -1397,36 +938,10 @@
                         src="https://photo.polylulu.com.tw/Photo/viewall.png" alt="View All"></a>
             </div>
         
-=======
-                    <a href="https://www.polylulu.com.tw/productlist?keyword=key:91060123">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexNews-pc-01.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexNews-m-01.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/productlist?keyword=key:91040438">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexNews-pc-02.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexNews-m-02.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/productlist?keyword=key:91040425">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexNews-pc-03.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexNews-m-03.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/productlist?keyword=key:96230356">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexNews-pc-04.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexNews-m-04.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/productlist?keyword=key:91060128" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexNews-pc-05.jpg" alt="" class="showPC">
-                    </a>
-                </div>
-                <a href="https://www.polylulu.com.tw/productsale?KeyWord=pi:6599303501&actno=55B13E83&onsale=1" class="btn_more"><img src="https://photo.polylulu.com.tw/Photo/viewall.png" alt=""></a>
-            </div>
-
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
             <div class="picBgset bgtit wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                 <h1>限時活動</h1>
             </div>
             <div class="picBgset bg_event wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-<<<<<<< HEAD
                 <!-- <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexSale-pc-tit.jpg" alt="" class="showPC"> -->
                 <!-- <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexSale-m-tit.jpg" alt="" class="showM"> -->
                 <div class="links">
@@ -1437,18 +952,6 @@
                     <a href="https://www.polylulu.com.tw/productsale?KeyWord=pi:6599336001&actno=24022904&onsale=1" title="完美收腹牛仔褲 任2件$1500">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexSale-pc-02.jpg" alt="完美收腹牛仔褲 任2件$1500" class="showPC">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/indexSale-m-02.jpg" alt="完美收腹牛仔褲 任2件$1500" class="showM">
-=======
-                <!-- <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSale-pc-tit.jpg" alt="" class="showPC"> -->
-                <!-- <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSale-m-tit.jpg" alt="" class="showM"> -->
-                <div class="links">
-                    <a href="https://www.polylulu.com.tw/productsale?KeyWord=pi:6599294901&actno=69494D1C-A306-4FD3-B0D6-1AEC664CA0A2&onsale=1">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSale-pc-01.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSale-m-01.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/productsale?KeyWord=pi:6599299701&actno=8669F134-296E-46A1-9402-FC2BC216B442&onsale=1">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSale-pc-02.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/indexSale-m-02.jpg" alt="" class="showM">
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
                     </a>
                 </div>
             </div>
@@ -1457,7 +960,6 @@
             </div>
             <div class="picBgset bg_intro wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                 <div class="links">
-<<<<<<< HEAD
                     <a
                         href="https://www.polylulu.com.tw/productlist?KeyWord=cid:111103&actno=4DB0FEB6-309F-4E77-83A7-A750C64C9E30" title="百搭背心">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/intro-pc-01.jpg" alt="百搭背心" class="showPC">
@@ -1487,31 +989,6 @@
                         href="https://www.polylulu.com.tw/productlist?KeyWord=cid:226632&actno=24DC3D75-AFAF-46B9-AE24-402B0BB1CEC4" title="不敗丹寧">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/intro-pc-06.jpg" alt="不敗丹寧" class="showPC">
                         <img src="https://photo.polylulu.com.tw/photo/act/20240904/intro-m-06.jpg" alt="不敗丹寧" class="showM">
-=======
-                    <a href="https://www.polylulu.com.tw/productlist?KeyWord=cid:111104&actno=E15FC4DA-3A9C-4213-9E6A-D40ABCD31288">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-pc-01.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-m-01.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/productlist?KeyWord=cid:226623&actno=0DB63158-8CD7-4CE6-882C-050A6620457B">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-pc-02.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-m-02.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/productlist?keyword=cid:111110&actno=BC2A0A26-72A1-4F3B-9E90-7ACCC49C7100">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-pc-03.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-m-03.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/productlist?KeyWord=cid:112200&actno=1FDD13DC-8690-46E5-B59A-1345A0B636EF">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-pc-04.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-m-04.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/productlist?KeyWord=cid:111130&actno=DEC1C3E9-62C8-4A95-A4E1-90021AD5DC91">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-pc-05.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-m-05.jpg" alt="" class="showM">
-                    </a>
-                    <a href="https://www.polylulu.com.tw/productlist?KeyWord=cid:226632&actno=24DC3D75-AFAF-46B9-AE24-402B0BB1CEC4">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-pc-06.jpg" alt="" class="showPC">
-                        <img src="https://photo.polylulu.com.tw/photo/act/20221114/intro-m-06.jpg" alt="" class="showM">
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
                     </a>
                 </div>
             </div>
@@ -1520,7 +997,6 @@
             </div>
             <div class="picBgset bg_brand wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                 <div>
-<<<<<<< HEAD
                     
                     <div class="links">
                         <a href="https://www.polylulu.com.tw/ponyo" title="PONYO">
@@ -1538,29 +1014,11 @@
                         <a href="https://www.polylulu.com.tw/mori" title="MORI">
                             <img src="https://photo.polylulu.com.tw/photo/act/20240904/brand-mori-pc.jpg" alt="" class="showPC">
                             <img src="https://photo.polylulu.com.tw/photo/act/20240904/brand-mori-m.jpg" alt="" class="showM">
-=======
-                    <div class="links">
-                        <a href="https://www.polylulu.com.tw/POLY">
-                            <img src="https://photo.polylulu.com.tw/photo/act/20221114/brand-pc-01.jpg" alt="" class="showPC">
-                            <img src="https://photo.polylulu.com.tw/photo/act/20221114/brand-m-01.jpg" alt="" class="showM">
-                        </a>
-                        <a href="https://www.polylulu.com.tw/mua">
-                            <img src="https://photo.polylulu.com.tw/photo/act/20221114/brand-pc-02.jpg" alt="" class="showPC">
-                            <img src="https://photo.polylulu.com.tw/photo/act/20221114/brand-m-02.jpg" alt="" class="showM">
-                        </a>
-                        <a href="https://www.polylulu.com.tw/miss">
-                            <img src="https://photo.polylulu.com.tw/photo/act/20221114/brand-pc-03.jpg" alt="" class="showPC">
-                            <img src="https://photo.polylulu.com.tw/photo/act/20221114/brand-m-03.jpg" alt="" class="showM">
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
                         </a>
                     </div>
                 </div>
             </div>
-<<<<<<< HEAD
         
-=======
-
->>>>>>> ceeb9a13b3e6f44c53078e38a313dc6661126a5c
             <!-- SALE區 ed-->
         </div>
         <!-- SALE ed -->
