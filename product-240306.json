@@ -1,0 +1,411 @@
+{
+  "Result": {
+    "ColorList": [
+      {
+        "SaleID": "9104040501",
+        "ColorID": "A05",
+        "ColorName": "白",
+        "ColorImg": "https://app-resource.polylulu.com.tw/app_img/91040405/38279DC2-271D-4B9E-85EE-C4B62041BACC.jpg",
+        "ProductPhotoList": [
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/1B3B9BC2-B7BE-43AA-94C5-4C63E6299047.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/E2E5C86B-2292-4EF3-A08C-02F8BC084C51.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/EFF892DB-1059-4101-B8BA-5ABD28CF9845.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/39BD9119-CE33-4685-9DE4-4093E132D343.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/9A45DD7F-C55F-4750-AC8A-F80624A3A199.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/DD51B676-87F3-4F6D-A100-009C74E9EB3B.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/2C006461-C807-4CE7-BFAB-97501B9189B7.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/45385CDB-6ECB-4B5E-8CAC-DC06BB1F3CF1.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/9B47C2E2-AD2F-4863-8DB2-26736DDBA27C.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/82385B94-C3F4-4A5E-AC76-D09AEC0EF32C.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          }
+        ],
+        "SizeList": [
+          {
+            "SizeID": "L",
+            "SizeTitle": "L",
+            "StockNum": 0,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 1,
+            "SellingMsgTitle": "已停售",
+            "SellingMsgBody": ""
+          },
+          {
+            "SizeID": "XL",
+            "SizeTitle": "XL",
+            "StockNum": 1,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 0,
+            "SellingMsgTitle": "加入購物車",
+            "SellingMsgBody": ""
+          },
+          {
+            "SizeID": "2XL",
+            "SizeTitle": "2XL",
+            "StockNum": 1,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 0,
+            "SellingMsgTitle": "加入購物車",
+            "SellingMsgBody": ""
+          },
+          {
+            "SizeID": "3XL",
+            "SizeTitle": "3XL",
+            "StockNum": 0,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 1,
+            "SellingMsgTitle": "已停售",
+            "SellingMsgBody": ""
+          }
+        ],
+        "DefaultPhoto": {
+          "url": "https://app-resource.polylulu.com.tw/app_img/91040405/1A483FEB-49D7-44D1-8313-C3EB27A4DDC9.jpg",
+          "width": 600,
+          "height": 600,
+          "photo_type": "03"
+        },
+        "IsKeep": false,
+        "FavoriteID": "",
+        "SalePrice": 372.0,
+        "OriginalPrice": 620.0,
+        "ActivityName": "A+B組合優惠 2件$599",
+        "Block": "A",
+        "ActivityTagInfo": {
+          "MasterCode": "",
+          "SubCode": "",
+          "TagName": "",
+          "TagType": 3,
+          "Item1": "6599313501",
+          "Item2": "",
+          "Item3": "",
+          "BannerLink": "",
+          "Brand": "",
+          "ActivityName": ""
+        },
+        "IsPremiums": true
+      },
+      {
+        "SaleID": "9104040504",
+        "ColorID": "B02",
+        "ColorName": "粉紫",
+        "ColorImg": "https://app-resource.polylulu.com.tw/app_img/91040405/7330F93C-8DCE-4B63-BDC7-BDD0CACE6F67.jpg",
+        "ProductPhotoList": [
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/A0312F0D-13B7-401C-852D-6DAEF8A0966C.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/3875E885-C670-4118-AF0D-420F2E047C3D.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/533B7D26-F75E-40DA-8F5D-D758BAB2A461.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/AE7F0FEB-5C59-4084-A282-E2E412D73C4A.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/214CE787-A64B-4425-842A-73CE2B042F0E.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/6A803A30-56EE-41B3-BFFE-75E58B58EA12.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/9EB2099E-85F3-41FA-AA59-2210EA1FF2FD.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/B38A76EC-B6E3-4715-9FDA-E0E976E2F8C8.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/2316CAA2-C38D-4A62-B3B2-D14C55749778.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/57EC9B6F-7484-47AD-89F5-153AE4DA139B.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          }
+        ],
+        "SizeList": [
+          {
+            "SizeID": "L",
+            "SizeTitle": "L",
+            "StockNum": 0,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 1,
+            "SellingMsgTitle": "已停售",
+            "SellingMsgBody": ""
+          },
+          {
+            "SizeID": "XL",
+            "SizeTitle": "XL",
+            "StockNum": 0,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 1,
+            "SellingMsgTitle": "已停售",
+            "SellingMsgBody": ""
+          },
+          {
+            "SizeID": "2XL",
+            "SizeTitle": "2XL",
+            "StockNum": 0,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 1,
+            "SellingMsgTitle": "已停售",
+            "SellingMsgBody": ""
+          },
+          {
+            "SizeID": "3XL",
+            "SizeTitle": "3XL",
+            "StockNum": 0,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 1,
+            "SellingMsgTitle": "已停售",
+            "SellingMsgBody": ""
+          }
+        ],
+        "DefaultPhoto": {
+          "url": "https://app-resource.polylulu.com.tw/app_img/91040405/D70AC358-5A9B-4B60-BE23-18D449C7A9A5.jpg",
+          "width": 600,
+          "height": 600,
+          "photo_type": "03"
+        },
+        "IsKeep": false,
+        "FavoriteID": "",
+        "SalePrice": 99.0,
+        "OriginalPrice": 620.0,
+        "ActivityName": "A+B組合優惠 2件$599",
+        "Block": "B",
+        "ActivityTagInfo": {
+          "MasterCode": "",
+          "SubCode": "",
+          "TagName": "",
+          "TagType": 3,
+          "Item1": "6599311701",
+          "Item2": "",
+          "Item3": "",
+          "BannerLink": "",
+          "Brand": "",
+          "ActivityName": ""
+        },
+        "IsPremiums": true
+      },
+      {
+        "SaleID": "9104040504",
+        "ColorID": "B02",
+        "ColorName": "測試",
+        "ColorImg": "https://app-resource.polylulu.com.tw/app_img/91040405/7330F93C-8DCE-4B63-BDC7-BDD0CACE6F67.jpg",
+        "ProductPhotoList": [
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/A0312F0D-13B7-401C-852D-6DAEF8A0966C.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/3875E885-C670-4118-AF0D-420F2E047C3D.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/533B7D26-F75E-40DA-8F5D-D758BAB2A461.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/AE7F0FEB-5C59-4084-A282-E2E412D73C4A.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/214CE787-A64B-4425-842A-73CE2B042F0E.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/6A803A30-56EE-41B3-BFFE-75E58B58EA12.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/9EB2099E-85F3-41FA-AA59-2210EA1FF2FD.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/B38A76EC-B6E3-4715-9FDA-E0E976E2F8C8.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/2316CAA2-C38D-4A62-B3B2-D14C55749778.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          },
+          {
+            "url": "https://app-resource.polylulu.com.tw/app_img/91040405/57EC9B6F-7484-47AD-89F5-153AE4DA139B.jpg",
+            "width": 844,
+            "height": 1100,
+            "photo_type": "01"
+          }
+        ],
+        "SizeList": [
+          {
+            "SizeID": "L",
+            "SizeTitle": "L",
+            "StockNum": 0,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 1,
+            "SellingMsgTitle": "已停售",
+            "SellingMsgBody": ""
+          },
+          {
+            "SizeID": "XL",
+            "SizeTitle": "XL",
+            "StockNum": 0,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 1,
+            "SellingMsgTitle": "已停售",
+            "SellingMsgBody": ""
+          },
+          {
+            "SizeID": "2XL",
+            "SizeTitle": "2XL",
+            "StockNum": 0,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 1,
+            "SellingMsgTitle": "已停售",
+            "SellingMsgBody": ""
+          },
+          {
+            "SizeID": "3XL",
+            "SizeTitle": "3XL",
+            "StockNum": 0,
+            "IsKeep": null,
+            "IsPreOrder": false,
+            "SellingStatus": 1,
+            "SellingMsgTitle": "已停售",
+            "SellingMsgBody": ""
+          }
+        ],
+        "DefaultPhoto": {
+          "url": "https://app-resource.polylulu.com.tw/app_img/91040405/D70AC358-5A9B-4B60-BE23-18D449C7A9A5.jpg",
+          "width": 600,
+          "height": 600,
+          "photo_type": "03"
+        },
+        "IsKeep": false,
+        "FavoriteID": "",
+        "SalePrice": 99.0,
+        "OriginalPrice": 620.0,
+        "ActivityName": "最後優惠【2件$198】",
+        "Block": "",
+        "ActivityTagInfo": {
+          "MasterCode": "",
+          "SubCode": "",
+          "TagName": "",
+          "TagType": 3,
+          "Item1": "6599311701",
+          "Item2": "",
+          "Item3": "",
+          "BannerLink": "",
+          "Brand": "",
+          "ActivityName": ""
+        },
+        "IsPremiums": true
+      }
+    ]
+  }
+}
