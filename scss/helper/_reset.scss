@@ -2,6 +2,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
 
 html,
 body,
@@ -90,8 +92,9 @@ video {
     font-size: $font-size-base;
     font: inherit;
     vertical-align: baseline;
-    font-family: Arial, "Microsoft JhengHei","黑體-繁", serif !important;
+    font-family: Arial, "Microsoft JhengHei","Noto Sans TC","黑體-繁", serif !important;
     line-height: $line-height-base;
+    font-weight: 400;
 }
 
 

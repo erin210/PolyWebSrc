@@ -5,6 +5,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
 :root {
   --blue: #4267B2;
   --indigo: #6610f2;
@@ -9523,8 +9524,9 @@ video {
   font-size: 1rem;
   font: inherit;
   vertical-align: baseline;
-  font-family: Arial, "Microsoft JhengHei", "黑體-繁", serif !important;
+  font-family: Arial, "Microsoft JhengHei", "Noto Sans TC", "黑體-繁", serif !important;
   line-height: 2;
+  font-weight: 400;
 }
 
 /* HTML5 display-role reset for older browsers */
