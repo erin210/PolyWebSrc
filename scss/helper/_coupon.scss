@@ -1,0 +1,202 @@
+
+.couponBox{
+
+}
+.couponCARD {
+    position: relative;
+    width: 400px;
+    margin: 10px 15px;
+    background: url(https://photo.polylulu.com.tw/photo/newweb/images/bg_red.png?v=231025) no-repeat 0 center;
+    background-size: 100% auto;
+    // padding: 20px;
+    @include media-breakpoint-down(sm){
+        // padding: 3vw;
+    }
+    @include border-radius(7px);
+    // overflow: hidden;
+    // border: 1px solid #f00;
+    &>div {
+        // box-sizing: border-box;
+        span {
+            font-size: 16px;
+        }
+    }
+    .couponTOP {
+        position: absolute;
+        left: 74px;
+        bottom: 0;
+        font-size: 53px;
+        font-weight: bold;
+        text-align: center;
+        color: $red-darken;
+        overflow: hidden;
+        // @include media-breakpoint-down(md){
+        //     left: 14.5vw !important;
+        // }
+        @include media-breakpoint-down(xs){
+            left: 65px;
+        }
+        
+        &>div {
+            line-height: 1.5;
+            
+        }
+    }
+    .couponBT {
+        position: relative;
+        padding-left: 55px;
+        // @include media-breakpoint-down(md){
+        //     padding-left: 9.5vw !important;
+        // }
+        // @include media-breakpoint-down(sm){
+        //     padding-left: 13.5vw;
+        // }
+        &>div {
+            height: 10rem;
+            // border: 9px solid $gray-600;
+            line-height: 1.5;
+            padding: 20px;
+            // @include media-breakpoint-down(sm){
+            //     height: 111px !important;
+            // }
+            @include media-breakpoint-down(xs){
+                height: 34vw;
+                padding: 10px;
+            }
+            p {
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 1.5;
+                display: block;
+            }
+            small {
+                color: $gray-700;
+                line-height: 1.5;
+                display: block;
+                margin-bottom: .35em;
+            }
+            .btn {
+                position: absolute;
+                right: 20px;
+                bottom: 10px;
+                z-index: 2;
+                margin: 1.5em 0 .5em 0;
+                width: 6em;
+                @include media-breakpoint-down(xs){
+                    bottom: 5px;
+                    right:15px;
+                }
+            }
+            
+            // &>a.remind {
+            //     background-color: $purple;
+            //     margin-bottom: .5em;
+            //     width: 8.5em;
+            //     color: $white !important;
+            //     // text-decoration: underline;
+            //     font-size: 10px;
+            //     display: block;
+            //     padding-left: 1em;
+            //     @include border-radius(50px);
+            //     i.icon_note {
+            //         background-color: $white !important;
+            //         color: $purple;
+            //         margin-right: 0;
+            //         line-height: 1.4;
+            //     }
+            // }
+            
+        }
+    }
+    a.remind {
+        position: absolute;
+        bottom: 50px;
+        right: 25px;
+        // background-color: $purple;
+        margin-bottom: .5em;
+        width: 7.5em;
+        color: $gray-700 !important;
+        text-align: right;
+        text-decoration: underline;
+        font-size: 10px;
+        display: block;
+        // padding-left: 1em;
+        // @include border-radius(50px);
+        @include media-breakpoint-down(xs){
+            right:5vw;
+            bottom: 11vw;
+        }
+        i.icon_note {
+            background-color: $gray-700 !important;
+            color: $white;
+            margin-right: 0;
+            margin-left: .35em;
+            line-height: 1.4;
+        }
+    }
+    .btn {
+        background-color: $red-darken;
+        color: $white;
+        &.disabled {
+            &:hover {
+                opacity: .65;
+            }
+        }
+    }
+    &.couponGet {
+        background: url(https://photo.polylulu.com.tw/photo/newweb/images/bg_gray.png?v=231025) no-repeat 0 center;
+        background-size: 100% auto;
+        .couponTOP,.couponBT{
+            opacity: .5;
+
+        }
+        .btn {
+            background-color: $gray-900;
+        }
+        a.remind{
+            cursor: default !important;
+        }
+    }
+    &.couponUsed {
+        background: url(https://photo.polylulu.com.tw/photo/newweb/images/bg_gray.png?v=231025) no-repeat 0 center;
+        background-size: 100% auto;
+        &>div {
+            opacity: .5;
+        }
+        .couponTOP {
+            color: $red;
+            &>div {
+                border-color: $gray-600;
+            }
+        }
+        .btn {
+            background-color: $gray-900;
+        }
+        a.remind{
+            cursor: default !important;
+        }
+    }
+    &.couponFull {
+        &>div {
+            opacity: .5;
+        }
+        &:before {
+            position: absolute;
+            z-index: 55;
+            content: '已額滿';
+            display: block;
+            top: 25%;
+            left: 50%;
+            width: 100px;
+            height: 100px;
+            margin-top: -1em;
+            margin-left: -50px;
+            padding-top: 35px;
+            text-align: center;
+            color: $white;
+            opacity: .7;
+            background-color: $black;
+            @include border-radius(50px);
+        }
+    }
+}

@@ -1,0 +1,144 @@
+#mainArea.pageIn,
+#mainArea.pageInfo,
+#mainArea.moveDown {
+    margin-top: 150px;
+}
+
+#mainArea.pageIndex {
+    margin-top: 244px;
+}
+
+
+
+header .sp_event_BN {
+    width: 100%;
+    height: 75px;
+    display: block;
+    background: #ffffff url(https://photo.polylulu.com.tw/Photo/Act/20221123/topbn-20221123-pc.jpg?v=231025)no-repeat center top;
+
+    border-top: 1px solid #eee;
+}
+
+
+.sidebar.navMember {
+    top: 169px;
+}
+
+
+
+@media(max-width: 1199px) {
+    
+
+    #mainArea.pageIn,
+    #mainArea.pageInfo {
+        margin-top: 16.3vw;
+    }
+
+    #mainArea.pageIndex {
+        margin-top: 14.9vw;
+
+    }
+
+    header.headerMain .sp_event_BN {
+        width: 100%;
+        height: 6vw;
+        display: block;
+        background: url(https://photo.polylulu.com.tw/Photo/Act/20221123/topbn-20221123-pc.jpg?v=231025)no-repeat center bottom;
+        background-size: auto 100%;
+    }
+    .sidebar.navMember {
+        top: 18vw;
+    }
+}
+
+@media(max-width: 991px) {
+    header .sp_event_BN {
+        height: 6vw;
+        background: #ffffff url(https://photo.polylulu.com.tw/Photo/Act/20221123/topbn-20221123-pc.jpg?v=231025)no-repeat center top;
+        background-size: 160% auto;
+    }
+
+    #mainArea.pageIn,
+    #mainArea.pageInfo {
+        margin-top: 20.4vw;
+    }
+
+    #mainArea.pageIndex {
+        margin-top: 19.2vw;
+
+    }
+
+    .sidebar.navMember {
+        top: 26vw;
+    }
+
+}
+
+@media (max-width: 414px) {
+
+    header .sp_event_BN,header.headerMain .sp_event_BN {
+        height: 8.9vw;
+        background: #ffffff url(https://photo.polylulu.com.tw/Photo/Act/20221123/topbn-20221123-m.jpg?v=231025)no-repeat center top;
+        background-size: 100% auto;
+    }
+
+    .areaMd .breadcrumb_bg {
+        top: calc(105px + 9vw);
+    }
+
+    .areaMd .main_pic {
+        top: calc(105px + 9vw + 3rem);
+    }
+
+    #mainArea.pageIndex {
+        margin-top: 29vw;
+    }
+
+    #mainArea.pageIn {
+        margin-top: 24vw;
+    }
+
+    #mainArea.pageInfo {
+        margin-top: 32vw;
+
+    }
+
+    .sidebar.navMember {
+        top: 26vw;
+    }
+
+
+    #mainArea.pageIn,
+    #mainArea.pageInfo {
+        margin-top: 38vw;
+    }
+
+    header.headerMain .sp_event_BN {
+        height: 8.9vw;
+    }
+
+    #mainArea.pageIndex {
+        margin-top: 35vw;
+    }
+
+    .sidebar.navMember {
+        top: 35vw;
+    }
+}
+
+@media (max-width: 390px) {
+
+    #mainArea.pageIndex {
+        margin-top: 37vw;
+    }
+
+    .sidebar.navMember {
+        top: 37vw;
+    }
+}
+
+@media (max-width: 375px){
+    #mainArea.pageIndex {
+        margin-top: 38vw;
+    }
+}

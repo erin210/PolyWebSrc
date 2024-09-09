@@ -1,0 +1,116 @@
+.newsList {
+    display: flex;
+    margin: 40px 0;
+    padding: 40px;
+    // border-top: 1px solid $gray-300;
+    background-color: #fff;
+    @include media-breakpoint-down(sm) {
+        // margin: 5vw -15px;
+        padding: 0;
+    }
+}
+
+.news_tit {
+    font-weight: bold;
+}
+
+.news_calendar {
+    text-align: center;
+    width: 70px;
+    height: 100px;
+    padding: 5px 15px;
+    border: 1px solid $gray-400;
+    span {
+        display: block;
+        line-height: 1.3;
+    }
+    .calendar_MM {}
+    .calendar_DD {
+        font-size: 28px;
+        font-weight: bold;
+        border-bottom: 1px solid $gray-400;
+        padding-bottom: .1em;
+        margin-bottom: .1em;
+    }
+}
+
+.news_info {
+    padding-left: 40px;
+    a {
+        text-decoration: underline !important;
+        color: $pink;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .newsList {
+        flex-direction: column;
+        border: 0;
+        // padding: 5vw;
+    }
+    .news_calendar {
+        position: absolute;
+        right: 15px;
+        margin-top: 15px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        // margin-bottom: 20px;
+        border: 0;
+        font-size: 12px;
+        color: $gray-400;
+        span {
+            display: inline-block;
+            line-height: 1;
+        }
+        .calendar_MM {
+            // margin-left: 80px;
+            &:after {
+                content: ".";
+                display: inline-block;
+                margin: 0 .1em;
+            }
+        }
+        .calendar_DD {
+            // position: absolute;
+            // left: 0;
+            // margin-left: 10px;
+            font-size: 12px;
+            font-weight: normal;
+            border: 0;
+            // &:after {
+            //     position: absolute;
+            //     top: 13%;
+            //     right: -13%;
+            //     content: "";
+            //     width: 1px;
+            //     height: 74%;
+            //     border-right: 1px solid $gray-400;
+            //     display: inline-block;
+            // }
+            &:after {
+                content: ".";
+                display: inline-block;
+                margin: 0 .1em;
+            }
+        }
+    }
+    .news_tit {
+        width: calc(100% + 30px);
+        display: block !important;
+        margin-top: -5px;
+        margin-bottom: 1.5em;
+        margin-left: -15px;
+        margin-right: -15px;
+        // padding-left: 80px;
+        line-height: 3;
+        border-bottom: 1px solid $gray-300;
+        padding: 0 1em;
+    }
+    .news_info {
+        padding: 15px;
+    }
+}
