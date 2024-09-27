@@ -16364,15 +16364,16 @@ footer .line_vertical {
   }
 }
 
-#section-youtube-vid:before {
-  content: "";
-  position: absolute;
-  z-index: 99;
-  width: 100%;
-  height: 100%;
-  display: block;
+@media (max-width: 767.98px) {
+  #section-youtube-vid:before {
+    content: "";
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
 }
-
 .car-items {
   width: 100%;
   border-bottom: 1px solid #918f90;

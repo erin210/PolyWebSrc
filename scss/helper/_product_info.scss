@@ -998,16 +998,18 @@ font-size: 12px;
     }
 }
 
-#section-youtube-vid{
+@include media-breakpoint-down(sm){
+    #section-youtube-vid{
     
-    // border: 1px solid #f00;
-    &:before{
-        content: "";
-        position: absolute;
-        z-index: 99;
-        width: 100%;
-        height: 100%;
-        display: block;
-        // background-color: #f00;
+        // border: 1px solid #f00;
+        &:before{
+            content: "";
+            position: absolute;
+            z-index: 99;
+            width: 100%;
+            height: 100%;
+            display: block;
+            // background-color: #f00;
+        }
     }
 }
