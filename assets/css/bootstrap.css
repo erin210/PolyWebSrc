@@ -13824,12 +13824,13 @@ footer .line_vertical {
     margin-bottom: 1px;
   }
   header .wrap .navMain_m .nav_list .nav_list_scroll > ul > li > h5 {
+    position: relative;
     padding: 0.2em 15px;
     background-color: #e4e4e4;
     font-size: 15px;
   }
   header .wrap .navMain_m .nav_list .nav_list_scroll > ul > li > h5 .hothot {
-    top: 34px;
+    top: -6px;
     right: inherit;
     left: 4em;
   }
