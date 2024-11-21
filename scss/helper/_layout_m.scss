@@ -295,13 +295,18 @@
                             padding-bottom: 30px;
                             &>li{
                                 margin-bottom: 1px;
+                                
                                 &>h5{
                                     // display: block;
                                     padding: 0.2em 15px;
                                     background-color: $gray-200;
                                     font-size: 15px;
                                     // font-weight: bold;
-                                    
+                                    .hothot{
+                                        top: 34px;
+                                        right:inherit;
+                                        left: 4em;
+                                    }
                                     .icon_arrow{
                                         float: right;
                                         width: 1em;
