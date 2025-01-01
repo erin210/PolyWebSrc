@@ -14587,26 +14587,6 @@ footer .line_vertical {
   margin: 1em auto 0 auto;
   width: 4em !important;
 }
-@media (max-width: 1199.98px) {
-  #areaBEST .best_items ul li figure figcaption {
-    display: block;
-    position: inherit;
-    background-color: transparent;
-    color: #333333;
-    margin-top: 0.5em;
-    padding: 0;
-    text-align: left;
-  }
-  #areaBEST .best_items ul li figure figcaption div:after {
-    display: none;
-  }
-  #areaBEST .best_items ul li figure figcaption span.tag-sale {
-    width: 4em;
-    display: inline-block;
-    float: right;
-    margin-top: 2px;
-  }
-}
 #areaBEST .best_items ul li figure:hover figcaption {
   display: block;
 }
@@ -14637,59 +14617,25 @@ footer .line_vertical {
     filter: blur(2px);
   }
 }
-@media (max-width: 991.98px) {
-  #areaBEST .best_items {
-    position: relative;
-    overflow: hidden;
-    height: 320px;
-  }
-  #areaBEST .best_items .best_items_scroll {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-  }
-  #areaBEST .best_items ul {
-    position: absolute;
-  }
-  #areaBEST .best_items ul li {
-    padding: 0 10px;
-  }
-  #areaBEST .best_items ul li figure img {
-    width: auto;
-    height: 230px;
-  }
-}
 
+#areaSHAPE {
+  margin-bottom: 60px;
+}
 #areaSHAPE .shape_items ul {
   display: flex;
   justify-content: center;
-  width: 1110px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-@media (max-width: 1199.98px) {
-  #areaSHAPE .shape_items ul {
-    width: 930px;
-  }
-}
-@media (max-width: 991.98px) {
-  #areaSHAPE .shape_items ul {
-    width: 1575px;
-    justify-content: flex-start;
-  }
-}
 #areaSHAPE .shape_items ul li {
   flex-basis: 20%;
-  padding: 0 15px;
+  padding: 0 10px;
   box-sizing: border-box;
 }
 @media (max-width: 991.98px) {
   #areaSHAPE .shape_items ul li {
-    flex-basis: inherit;
-    margin-right: 150px;
-    padding: 0;
+    padding: 0 5px;
   }
 }
 #areaSHAPE .shape_items ul li a {
@@ -14699,30 +14645,12 @@ footer .line_vertical {
   text-decoration: none;
 }
 #areaSHAPE .shape_items ul li a img {
-  opacity: 0;
-  width: 100%;
-}
-#areaSHAPE .shape_items ul li a:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 270px;
-  display: block;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-@media (max-width: 1199.98px) {
-  #areaSHAPE .shape_items ul li a:after {
-    height: 230px;
-  }
+  width: 70%;
+  margin: 0 auto;
 }
 @media (max-width: 991.98px) {
-  #areaSHAPE .shape_items ul li a:after {
-    width: 80%;
-    height: 270px;
+  #areaSHAPE .shape_items ul li a img {
+    width: 100%;
   }
 }
 #areaSHAPE .shape_items ul li a figcaption {
@@ -14733,24 +14661,22 @@ footer .line_vertical {
 #areaSHAPE .shape_items ul li a figcaption h4 {
   width: 100%;
   position: absolute;
-  bottom: 25px;
+  bottom: -20px;
   padding: 0.5em 0;
-  border-top: 1px solid #f98696;
-  border-bottom: 1px solid #f98696;
   font-size: 20px;
 }
 @media (max-width: 991.98px) {
   #areaSHAPE .shape_items ul li a figcaption h4 {
     position: inherit;
     bottom: inherit;
-    font-size: 18px;
-    padding: 0.5em 7px;
+    font-size: 14px;
+    padding: 0.5em 0;
   }
 }
 #areaSHAPE .shape_items ul li a figcaption p {
   width: 100%;
   position: absolute;
-  top: 10%;
+  top: 20%;
   z-index: 55;
   font-size: 12px;
   display: none;
@@ -14779,40 +14705,14 @@ footer .line_vertical {
     font-size: 12px;
   }
 }
-@media (max-width: 991.98px) {
-  #areaSHAPE .shape_items ul li a figcaption {
-    position: absolute;
-    top: 5%;
-    left: 0;
-    width: 136px;
-    margin-left: 149px;
-    display: block;
-    font-size: 11px;
-    text-align: left;
-  }
-  #areaSHAPE .shape_items ul li a figcaption p {
-    position: inherit;
-    top: 60px;
-    display: block;
-    padding-left: 7px;
-  }
-  #areaSHAPE .shape_items ul li a figcaption p u {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 0.7em;
-  }
-  #areaSHAPE .shape_items ul li a figcaption p .btn {
-    width: 91%;
-  }
-}
-#areaSHAPE .shape_items ul li a:hover:after {
-  opacity: 0.3;
+#areaSHAPE .shape_items ul li a:hover img {
   filter: blur(2px);
+  opacity: 0.5;
 }
 @media (max-width: 991.98px) {
-  #areaSHAPE .shape_items ul li a:hover:after {
-    opacity: 1;
+  #areaSHAPE .shape_items ul li a:hover img {
     filter: blur(0);
+    opacity: 1;
   }
 }
 #areaSHAPE .shape_items ul li a:hover figcaption p {
@@ -14836,45 +14736,14 @@ footer .line_vertical {
   animation-direction: forwards;
   animation-iteration-count: 1;
 }
-#areaSHAPE .shape_items ul li:nth-child(1) a:after {
-  background: url(https://photo.polylulu.com.tw/photo/bodytype/body_type01.png?v=231025) no-repeat center 0;
-  background-size: auto 100%;
-}
-#areaSHAPE .shape_items ul li:nth-child(2) a:after {
-  background: url(https://photo.polylulu.com.tw/photo/bodytype/body_type02.png?v=231025) no-repeat center 0;
-  background-size: auto 100%;
-}
-#areaSHAPE .shape_items ul li:nth-child(3) a:after {
-  background: url(https://photo.polylulu.com.tw/photo/bodytype/body_type03.png?v=231025) no-repeat center 0;
-  background-size: auto 100%;
-}
-#areaSHAPE .shape_items ul li:nth-child(4) a:after {
-  background: url(https://photo.polylulu.com.tw/photo/bodytype/body_type04.png?v=231025) no-repeat center 0;
-  background-size: auto 100%;
-}
-#areaSHAPE .shape_items ul li:nth-child(5) a:after {
-  background: url(https://photo.polylulu.com.tw/photo/bodytype/body_type05.png?v=231025) no-repeat center 0;
-  background-size: auto 100%;
+@media (max-width: 991.98px) {
+  #areaSHAPE .shape_items ul li a:hover figcaption p {
+    animation: inherit;
+    display: none;
+  }
 }
 #areaSHAPE .shape_items figure {
   position: relative;
-}
-@media (max-width: 991.98px) {
-  #areaSHAPE .shape_items {
-    position: relative;
-    overflow: hidden;
-    height: 300px;
-  }
-  #areaSHAPE .shape_items .shape_items_scroll {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-  }
-  #areaSHAPE .shape_items .shape_items_scroll ul {
-    position: absolute;
-  }
 }
 
 .pdList:before, .pdList:after {

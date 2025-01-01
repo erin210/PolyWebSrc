@@ -1,12 +1,13 @@
 {
-    "favorites.resources": [
-        {
-            "filePath": "src",
-            "group": "Default"
-        },
-        {
-            "filePath": "dist\\Source",
-            "group": "Default"
-        }
-    ]
+  "favorites.resources": [
+    {
+      "filePath": "src",
+      "group": "Default"
+    },
+    {
+      "filePath": "dist\\Source",
+      "group": "Default"
+    }
+  ],
+  "liveServer.settings.port": 5501
 }
