@@ -10082,7 +10082,11 @@ table td {
   text-align: center;
 }
 
-input, input[type=text], input[type=email], input[type=password], input[type=tel] {
+input,
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel] {
   font-size: 14px;
   -webkit-text-size-adjust: none;
   -ms-text-size-adjust: none;
@@ -10932,6 +10936,28 @@ table.infoTable.spTable .spLine td.tit u {
 @media (max-width: 767.98px) {
   .show4pc {
     display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .show4lg_up {
+    display: inline-block !important;
+  }
+}
+@media (max-width: 1199.98px) {
+  .show4lg_up {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .show4lg_down {
+    display: none !important;
+  }
+}
+@media (max-width: 1199.98px) {
+  .show4lg_down {
+    display: inline-block !important;
   }
 }
 

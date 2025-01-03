@@ -1,22 +1,27 @@
 $header_height_pc:178px;
 $header_height_m:108px;
+
 //keyframe
 @include keyframe (rrroate) {
+
     //轉180度一圈
     0% {
         @include rotate (0);
     }
+
     100% {
         @include rotate (180);
     }
 }
 
 @include keyframe (logoshow) {
+
     //轉180度一圈
     0% {
         opacity: 0;
         margin-top: -5px;
     }
+
     100% {
         opacity: 1;
         margin-top: 0;
@@ -24,19 +29,24 @@ $header_height_m:108px;
 }
 
 @include keyframe (shiny) {
+
     //轉180度一圈
     0% {
         color: $red;
     }
+
     25% {
         color: $purple;
     }
+
     50% {
         color: $red;
     }
+
     75% {
         color: $purple;
     }
+
     100% {
         color: $red;
     }
@@ -46,6 +56,7 @@ $header_height_m:108px;
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -55,22 +66,26 @@ $header_height_m:108px;
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: .7;
     }
 }
+
 @include keyframe (fadeOut) {
     0% {
         opacity: 1;
         z-index: 999;
     }
+
     100% {
         opacity: 0;
         z-index: -1;
         visibility: hidden;
-        
+
     }
 }
+
 // @keyframes fadeOutEnd {
 //     to {
 //         visibility: hidden;
@@ -81,6 +96,7 @@ $header_height_m:108px;
     0% {
         left: -200px;
     }
+
     100% {
         left: 0;
     }
@@ -96,6 +112,7 @@ $header_height_m:108px;
         width: 0;
         right: -200px;
     }
+
     100% {
         right: 0;
     }
@@ -107,6 +124,7 @@ $header_height_m:108px;
         opacity: 1;
         top: 0;
     }
+
     100% {
         opacity: 0;
         top: -200px;
@@ -119,6 +137,7 @@ $header_height_m:108px;
         opacity: 1;
         top: 109px;
     }
+
     100% {
         opacity: 0;
         top: -40px;
@@ -130,6 +149,7 @@ $header_height_m:108px;
     0% {
         @include rotate (-90);
     }
+
     100% {
         @include rotate (0);
     }
@@ -152,16 +172,17 @@ html {
 }
 
 body {
-    
+
     font-family: $font-family-base;
     // font-size: 12px;
     letter-spacing: 0.020rem;
     background: $gray-100;
     @include animation (0, .3s, fadeIn, forwards, unset, 1);
+
     &.body_white {
         background-color: #fff;
-        }
-    
+    }
+
 }
 
 
@@ -197,10 +218,12 @@ small {
     font-size: 12px;
     line-height: 1.5;
     display: inline-block;
+
     @include media-breakpoint-down(sm) {
         font-size: 10px;
     }
-    .small_icon{
+
+    .small_icon {
         font-size: 18px;
         margin-top: -.1em;
         margin-right: .5em;
@@ -218,6 +241,7 @@ hr {
 h2 {
     small {
         font-size: 1rem*.8;
+
         @include media-breakpoint-down(sm) {
             display: block;
             margin-top: 1rem;
@@ -235,18 +259,24 @@ p {
 }
 
 table {
+
     th,
     td {
         text-align: center;
     }
 }
 
-input,input[type=text], input[type=email], input[type=password], input[type=tel] {
+input,
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel] {
     font-size: 14px;
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
     text-size-adjust: none;
 }
+
 textarea {
     font-size: 14px;
     font-family: inherit;
@@ -259,7 +289,7 @@ textarea {
     -moz-text-size-adjust: none;
     -ms-text-size-adjust: none;
     text-size-adjust: none;
-  }
+}
 
 select {
     appearance: none;
@@ -289,10 +319,12 @@ a.link_underline {
 .btn {
     opacity: 0.85;
     font-size: 14px;
+
     &:hover {
         opacity: 1;
     }
-    &:disabled{
+
+    &:disabled {
         opacity: 0.75;
     }
 }
@@ -301,6 +333,7 @@ a.link_underline {
 .btn-primary:disabled {
     cursor: default;
     opacity: 0.5;
+
     &:hover {
         opacity: 0.65;
     }
@@ -318,6 +351,7 @@ a.link_underline {
 
 .form-group {
     color: $gray-800;
+
     a:hover {
         text-decoration: none;
     }
@@ -331,6 +365,7 @@ a.link_underline {
     font-size: 24px;
     text-align: center;
     margin-bottom: 1em;
+
     span {
         display: block;
         font-size: 14px;
@@ -343,6 +378,7 @@ a.link_underline {
     font-size: 24px;
     margin-bottom: 1em;
     text-align: center;
+
     @include media-breakpoint-down(sm) {
         span {
             font-size: 18px;
@@ -356,11 +392,13 @@ a.link_underline {
     font-size: 16px;
     margin-bottom: 1.5em;
     text-align: center;
+
     span {
         background-color: $gray-100;
         padding: 0 20px;
         display: inline-block;
     }
+
     &:before {
         position: absolute;
         top: 16px;
@@ -373,6 +411,7 @@ a.link_underline {
         height: 1px;
         border-top: 1px solid $gray-400;
     }
+
     @include media-breakpoint-down(sm) {
         &:before {
             width: 100%;
@@ -384,13 +423,16 @@ a.link_underline {
 .hugeTitle {
     width: 100%;
     text-align: center;
+
     h1 {
         font-size: 33px;
         line-height: 1em;
     }
+
     span {
         font-size: 12px;
     }
+
     img {
         display: inline;
     }
@@ -408,23 +450,27 @@ a.link_underline {
     color: $pink;
     // color: $red;
 }
-.warning{
+
+.warning {
     background-color: $pink_lighten;
     color: $red_darken;
     text-align: center;
     padding: .55em 0;
     line-height: 1.5;
-    i.icon_note{
+
+    i.icon_note {
         width: 1.35em;
         height: 1.35em;
         line-height: 1.35;
         color: $pink_lighten;
-        background-color:$red;
+        background-color: $red;
         vertical-align: baseline;
     }
-    @include media-breakpoint-down(sm){
+
+    @include media-breakpoint-down(sm) {
         padding: .7em 1em;
-        i.icon_note{
+
+        i.icon_note {
             display: none;
         }
     }
@@ -449,6 +495,7 @@ a.link_underline {
     margin-right: .35rem;
     // height: 1em;
     line-height: 2em;
+
     u {
         max-height: 100%;
         width: auto;
@@ -462,6 +509,7 @@ a.link_underline {
     height: 1em;
     margin-right: .35em;
     margin-left: -1.83em;
+
     img {
         height: 1.5em;
         margin-top: -.2em;
@@ -478,6 +526,7 @@ a.link_underline {
     line-height: 1.5;
     // font-weight: bold;
     @include border-radius(50px);
+
     @include media-breakpoint-down(sm) {
         padding-top: 1px;
         line-height: 1.2;
@@ -486,11 +535,11 @@ a.link_underline {
 
 .icon_shiny {
     @include animation (0s,
-    1s,
-    shiny,
-    normal,
-    normal,
-    infinite);
+        1s,
+        shiny,
+        normal,
+        normal,
+        infinite);
 }
 
 .tag_sale {
@@ -518,6 +567,7 @@ a.link_underline {
     border: 1px solid $purple;
     @include border-radius(50px);
 }
+
 .tag_soldout {
     padding: .2em .8em;
     margin-right: .5em;
@@ -528,7 +578,7 @@ a.link_underline {
     @include border-radius(50px);
 }
 
-.abTag{
+.abTag {
     display: inline-block;
     height: 1.35em;
     margin-top: -0.1em;
@@ -536,18 +586,21 @@ a.link_underline {
     margin-right: .35em;
     line-height: 1;
     vertical-align: middle;
+
     // border: 1px solid #f00;
-    img{
-        width:auto !important;
-        max-height:100%;
+    img {
+        width: auto !important;
+        max-height: 100%;
     }
-    &.abTag_nosale{
+
+    &.abTag_nosale {
         opacity: .6;
     }
 }
 
 .has_ball {
     position: relative;
+
     .red_ball {
         position: absolute;
         top: 0;
@@ -575,6 +628,7 @@ a.link_underline {
     font-size: 12px;
     color: $gray-400;
     text-decoration: line-through;
+
     @include media-breakpoint-down(sm) {
         font-size: 10px;
     }
@@ -589,6 +643,7 @@ a.link_underline {
     color: $white;
     background-color: $red;
     opacity: .8;
+
     &:hover {
         opacity: 1;
     }
@@ -628,9 +683,11 @@ a.link_underline {
     animation: newup2 1s ease-out infinite alternate;
     -webkit-animation: newup2 1s ease-out infinite alternate;
 }
-.hothot~span{
-    color:$red;
+
+.hothot~span {
+    color: $red;
 }
+
 .hothot:after {
     content: '';
     border-radius: 16px;
@@ -658,12 +715,15 @@ a.link_underline {
     from {
         color: rgba(255, 255, 255, 1)
     }
+
     33% {
         color: rgba(255, 255, 255, .6)
     }
+
     66% {
         color: rgba(255, 255, 255, 1)
     }
+
     to {
         color: rgba(255, 255, 255, .6)
     }
@@ -675,6 +735,7 @@ a.link_underline {
         padding: 0.5rem 1.2rem;
         border: 1px solid transparent;
     }
+
     .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
         color: $gray-900;
@@ -682,6 +743,7 @@ a.link_underline {
         border: 1px solid $gray-900;
         border-bottom: 0;
     }
+
     &.centerTab {
         .nav.nav-pills {
             position: inherit;
@@ -689,20 +751,24 @@ a.link_underline {
             flex-wrap: wrap;
             justify-content: center;
             margin-bottom: 50px;
+
             .nav-link {
                 padding: 0.5rem 1.6rem;
             }
         }
+
         @include media-breakpoint-down(sm) {
             .nav.nav-pills {
                 margin-bottom: 5vw;
                 height: auto;
+
                 &.faqTab {
                     .nav-link {
                         padding: 0.5rem;
                     }
                 }
             }
+
             .tabScroll {
                 .nav.nav-pills {
                     justify-content: center;
@@ -710,11 +776,13 @@ a.link_underline {
             }
         }
     }
+
     @include media-breakpoint-down(lg) {
         .nav {
             padding: 0 3%;
         }
     }
+
     @include media-breakpoint-down(sm) {
         .tabList {
             position: relative;
@@ -722,6 +790,7 @@ a.link_underline {
             height: 73px;
             overflow: hidden;
         }
+
         .tabScroll {
             position: absolute;
             width: 100%;
@@ -729,6 +798,7 @@ a.link_underline {
             overflow-x: scroll;
             // overflow-y: none;
         }
+
         .nav.nav-pills {
             position: absolute;
             width: auto;
@@ -737,6 +807,7 @@ a.link_underline {
             justify-content: center;
             flex-wrap: nowrap;
         }
+
         .nav-link,
         .polyTab .nav-pills .nav-link,
         .polyTab .nav-pills .nav-link.active,
@@ -751,6 +822,7 @@ a.link_underline {
 
 .icon_arrow_right {
     @include rotate(-90);
+
     u {
         font-size: 10px;
     }
@@ -782,10 +854,12 @@ a.link_underline {
     color: $white;
     padding: .5em 1em;
     font-size: 14px;
+
     .icon_arrow_right {
         margin-left: .25em;
         margin-right: 0.25em;
     }
+
     .icon u {
         vertical-align: bottom;
     }
@@ -797,6 +871,7 @@ a.link_underline {
     display: inline-block;
     background-color: $pink_lighten;
     color: $gray-700;
+
     b {
         color: $red;
     }
@@ -809,9 +884,11 @@ a.link_underline {
         font-size: 14px;
         line-height: 1.8;
         margin-bottom: .5em;
+
         @include media-breakpoint-down(sm) {
             font-size: 12px;
         }
+
         &:before {
             content: "▸";
             position: absolute;
@@ -824,6 +901,7 @@ a.link_underline {
     h6 {
         font-size: 14px;
     }
+
     ul,
     ol {
         li {
@@ -835,6 +913,7 @@ a.link_underline {
 
 .num_list {
     padding-left: 1.53em;
+
     li {
         font-size: 14px;
         list-style-type: decimal;
@@ -846,6 +925,7 @@ a.link_underline {
 .numcn_list {
     //中文數字
     padding-left: 1em;
+
     li {
         font-size: 14px;
         list-style-type: cjk-ideographic;
@@ -862,9 +942,11 @@ a.link_underline {
         color: $red;
         line-height: 1.7;
         margin-bottom: .5em;
+
         @include media-breakpoint-down(sm) {
             font-size: 10px;
         }
+
         &:before {
             content: "▸";
             position: absolute;
@@ -879,27 +961,34 @@ table {
     font-size: 12px;
     line-height: 1.5;
     margin-bottom: 10px;
+
     tbody {
         width: 100%;
     }
+
     th,
     td {
         padding: .5em .3em;
         border-bottom: 1px solid $gray-400;
         vertical-align: middle;
     }
+
     th {
         line-height: 1.5;
     }
+
     td {
         line-height: 1.5;
     }
+
     tr:last-child {
         td {
             border: 0;
         }
     }
+
     .bg-color {
+
         th,
         td {
             background-color: $gray-100;
@@ -913,6 +1002,7 @@ table.infoTable {
     border: 0;
     border-collapse: inherit;
     background: transparent;
+
     th {
         background-color: $gray-900;
         color: $white;
@@ -920,37 +1010,47 @@ table.infoTable {
         font-size: 14px;
         border: 0;
     }
+
     td {
         padding: 1em 0;
         font-size: 14px;
         border-color: $gray-200;
+
         &.list_top .icon {
             display: none;
         }
     }
+
     &.spTable {
         border: 1px solid $gray-600;
+
         td {
             border-bottom: 1px solid $gray-400;
+
             &:not(:last-child) {
                 border-right: 1px solid $gray-400;
             }
+
             small {
                 color: $gray-600;
             }
         }
+
         tr:last-child {
             td {
                 border-bottom: 0;
             }
         }
+
         .spLine {
             td {
                 background-color: $pink_lighten;
                 vertical-align: middle;
+
                 &.tit {
                     font-size: 24px;
                     color: $red;
+
                     u {
                         vertical-align: inherit;
                     }
@@ -958,15 +1058,19 @@ table.infoTable {
             }
         }
     }
+
     @include media-breakpoint-down(sm) {
+
         th,
         td {
             font-size: 12px;
         }
     }
+
     &.rwdTable {
         @include media-breakpoint-up(lg) {
             tr {
+
                 &:before,
                 &:after {
                     content: "";
@@ -975,25 +1079,30 @@ table.infoTable {
                 }
             }
         }
+
         @include media-breakpoint-down(md) {
             th {
                 display: none;
             }
+
             td {
                 text-align: left;
                 // padding-left: 15px;
                 height: 50px;
+
                 &:not(.list_top) {
                     margin-left: 15px;
                     margin-right: 15px;
                     border-bottom: 1px solid $gray-200;
                 }
+
                 &:before {
                     content: attr(data-th)"：";
                     font-weight: bold;
                     display: inline-block;
                 }
             }
+
             td.list_top {
                 background-color: $gray-900;
                 color: $white;
@@ -1006,23 +1115,28 @@ table.infoTable {
                 padding: 0.8em 15px;
                 border-bottom: 0;
             }
+
             tr {
                 width: 100%;
+
                 // border: 1px solid #f00;
                 &:not(.hide4m) {
                     display: flex;
                     flex-direction: column;
                     border-bottom: 15px solid $gray-100;
+
                     td:last-child {
                         border-bottom: 0;
                     }
                 }
             }
         }
+
         @include media-breakpoint-down(sm) {
             td:not(.list_top) {
                 margin: 0 15px;
             }
+
             td.list_top {
                 margin-left: 0;
                 margin-right: 0;
@@ -1036,6 +1150,7 @@ table.infoTable {
     text-align: center;
     padding: 40px 0;
     opacity: .8;
+
     img {
         width: 100px;
         margin-left: auto;
@@ -1043,6 +1158,7 @@ table.infoTable {
         margin-bottom: 20px;
         opacity: .6;
     }
+
     span {
         display: block;
     }
@@ -1051,16 +1167,19 @@ table.infoTable {
 .btn_g {
     display: flex;
     justify-content: center;
+
     a.btn {
         min-width: 137px;
         display: inline-block;
         margin: 0 5px;
     }
+
     @include media-breakpoint-down(sm) {
         display: flex;
         justify-content: space-between;
         flex-grow: 1;
         margin: 0 15px;
+
         a.btn {
             width: 48%;
             min-width: auto;
@@ -1075,12 +1194,34 @@ table.infoTable {
 .show4pc {
     @include media-breakpoint-up(md) {
         display: inline-block !important;
+
         &.line_vertical {
             display: block !important;
         }
     }
+
     @include media-breakpoint-down(sm) {
         display: none !important;
+    }
+}
+
+.show4lg_up {
+    @include media-breakpoint-up(xl) {
+        display: inline-block !important;
+    }
+
+    @include media-breakpoint-down(lg) {
+        display: none !important;
+    }
+}
+
+.show4lg_down {
+    @include media-breakpoint-up(xl) {
+        display: none !important;
+    }
+
+    @include media-breakpoint-down(lg) {
+        display: inline-block !important;
     }
 }
 
@@ -1088,6 +1229,7 @@ table.infoTable {
     @include media-breakpoint-up(lg) {
         display: inline-block !important;
     }
+
     @include media-breakpoint-down(md) {
         display: none !important;
     }
@@ -1097,6 +1239,7 @@ table.infoTable {
     @include media-breakpoint-up(lg) {
         display: none !important;
     }
+
     @include media-breakpoint-down(md) {
         display: inline-block !important;
     }
@@ -1106,6 +1249,7 @@ table.infoTable {
     @include media-breakpoint-up(md) {
         display: none !important;
     }
+
     @include media-breakpoint-down(sm) {
         display: inline-block !important;
     }
@@ -1114,6 +1258,7 @@ table.infoTable {
 .txtpic {
     border: 1px solid $gray-400;
     text-align: center;
+
     img {
         max-width: 100%;
     }
@@ -1122,12 +1267,15 @@ table.infoTable {
 .info_711 {
     margin-bottom: 2em;
     padding-top: .2em;
+
     .btn-sm {
         padding: 0.4rem 0.5rem;
     }
+
     @include media-breakpoint-down(sm) {
         padding-top: 0;
         padding-left: 5px;
+
         &>span {
             display: block;
             margin-bottom: 1em;
