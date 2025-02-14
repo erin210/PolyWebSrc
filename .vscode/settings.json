@@ -1,13 +1,32 @@
 {
-  "favorites.resources": [
-    {
-      "filePath": "src",
-      "group": "Default"
-    },
-    {
-      "filePath": "dist\\Source",
-      "group": "Default"
-    }
+  "liveServer.settings.port": 5501,
+  "editor.wordWrap": "on",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "liveSassCompile.settings.autoprefix": [],
+  "liveSassCompile.settings.formats": [
+      {
+        "format": "compressed",
+        "savePath": "./Source/css/zh-cht/",
+        "map": true,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+      }
   ],
-  "liveServer.settings.port": 5501
+  "[scss]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "sass.andStared": [
+    "active",
+    "focus",
+    "hover",
+    "nth-child"
+  ]
 }

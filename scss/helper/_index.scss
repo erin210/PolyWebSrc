@@ -18,11 +18,9 @@
     img {
         width: 100%;
     }
-
     .slick-dots {
         bottom: 35px;
     }
-
     .slick-dots li button:before {
         width: 12px;
         height: 12px;
@@ -655,7 +653,13 @@
 
 //BODY SHAPE old
 #areaSHAPE {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
+    @include media-breakpoint-down(md){
+        margin-bottom: 60px;
+    }
+    @include media-breakpoint-down(sm){
+margin-bottom: 7.5vw;
+    }
 
     // background-color: $white;
     .shape_items {
@@ -677,7 +681,7 @@
             // }
 
             li {
-                flex-basis: 20%;
+                // flex-basis: 20%;
                 // border: 1px solid #f00;
                 padding: 0 10px;
                 box-sizing: border-box;
@@ -738,7 +742,7 @@
                         h4 {
                             width: 100%;
                             position: absolute;
-                            bottom: -20px;
+                            // bottom: -20px;
                             padding: .5em 0;
                             // border-top: 1px solid $pink;// border-bottom: 1px solid $pink;
                             font-size: 20px;
