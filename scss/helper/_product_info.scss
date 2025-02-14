@@ -643,8 +643,8 @@
             
         }
     }
-}
-#sizePP{
+    }
+    #sizePP{
         .popup_info_scroll {
                 width: 100vw;
                 height: 100vh;
@@ -654,6 +654,11 @@
 }
 
 #sizePP {
+    .popup_info table tr td{
+        &.showM{
+            display: none;
+        }
+    }
     @include media-breakpoint-down(sm) {
         .popup_info {
             position: relative;
@@ -672,33 +677,11 @@
                     th {
                         padding: .1em;
                     }
-                }
-                &:first-child {
-                    padding: .5em;
-                }
-            }
-        }
-    }
-}
-#storePP {
-    @include media-breakpoint-down(sm) {
-        .popup_info {
-            position: relative;
-            padding: 2em 0;
-            width: 100%;
-            height: 100vh;
-            .popup_info_scroll {
-                width: 100%;
-                height: 100vh;
-                overflow-y: auto;
-                padding: 1em;
-            }
-            table {
-                margin: 5em 0 10em 0;
-                tr {
-                    td,
-                    th {
-                        padding: .1em;
+                    td.showM{
+                        display:table-cell;
+                    }
+                    td.showPC{
+                        display:none;
                     }
                 }
                 &:first-child {
@@ -708,6 +691,34 @@
         }
     }
 }
+// #storePP {
+//     @include media-breakpoint-down(sm) {
+//         .popup_info {
+//             position: relative;
+//             padding: 2em 0;
+//             width: 100%;
+//             height: 100vh;
+//             .popup_info_scroll {
+//                 width: 100%;
+//                 height: 100vh;
+//                 overflow-y: auto;
+//                 padding: 1em;
+//             }
+//             table {
+//                 margin: 5em 0 10em 0;
+//                 tr {
+//                     td,
+//                     th {
+//                         padding: .1em;
+//                     }
+//                 }
+//                 &:first-child {
+//                     padding: .5em;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 .product-heading{
     small{
