@@ -666,7 +666,6 @@ margin-bottom: 7.5vw;
         ul {
             display: flex;
             justify-content: center;
-            width: 100%;
             margin-left: auto;
             margin-right: auto;
 
@@ -691,7 +690,7 @@ margin-bottom: 7.5vw;
                     // flex-basis: inherit;
                     // margin-right: 150px;
 
-                    padding: 0 5px;
+                    padding: 0 8px;
                 }
 
                 a {
@@ -750,7 +749,7 @@ margin-bottom: 7.5vw;
                             @include media-breakpoint-down(md) {
                                 position: inherit;
                                 bottom: inherit;
-                                font-size: 14px;
+                                font-size: 16px;
                                 padding: .5em 0;
                             }
                         }
@@ -889,6 +888,20 @@ margin-bottom: 7.5vw;
                 //     background-size: auto 100%;
                 //     }
                 // } 
+            }
+        }
+        @include media-breakpoint-down(sm){
+            overflow-x: auto;
+            
+            ul{
+
+                width: 145%;
+            }
+        }
+        @include media-breakpoint-down(xs){
+            ul{
+
+                width: 145%;
             }
         }
 
