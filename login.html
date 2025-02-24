@@ -428,6 +428,23 @@
                     </div><small class="remind"><u class="icon-i_hand mr-1"></u>攸關生日禮等會員權益，請確實填寫！</small>
                 </div>
                 <div class="form-group">
+                    <div class="form-row">
+                        <div class="col pr-0"><select name="countryCode" class="form-control" id="phone"><option value="886">+886(台灣及離島)</option> <option value="+86">(中國+86)</option> <option value="+852">(香港+852)</option> <option value="+853">(澳門+853)</option> <option value="+81">(日本+81)</option> <option value="+82">(韓國+82)</option> <option value="+65">(新加坡+65)</option> <option value="+60">(馬來西亞+60)</option> <option value="+84">(越南+84)</option> <option value="+66">(泰國+66)</option> <option value="+63">(菲律賓+63)</option> <option value="+62">(印尼+62)</option> <option value="+673">(汶萊+673)</option> <option value="+1">(美國/加拿大+1)</option> <option value="+61">(澳大利亞+61)</option> <option value="+64">(紐西蘭+64)</option> <option value="+44">(英國+44)</option> <option value="+49">(德國+49)</option> <option value="+33">(法國+33)</option> <option value="+32">(比利時+32)</option> <option value="+39">(義大利+39)</option> <option value="+352">(盧森堡+352)</option> <option value="+31">(荷蘭+31)</option> <option value="+41">(瑞士+41)</option> <option value="+45">(丹麥+45)</option> <option value="+34">(西班牙+34)</option> <option value="+46">(瑞典+46)</option> <option value="+47">(挪威+47)</option> <option value="+48">(波蘭+48)</option> <option value="+55">(巴西+55)</option> <option value="+56">(智利+56)</option> <option value="+595">(巴拉圭+595)</option></select></div>
+                        <div class="col-7 pl-0"><input class="form-control border-left-0" type="tel" placeholder="電話"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" id="verifyINPUT" class="form-control" placeholder="手機驗證碼" aria-label="手機驗證碼" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <!-- <button class="btn btn-primary" type="button" onclick="settime(this)">獲取驗證碼</button> -->
+                            <input type="button" id="verifyCODE" class="btn btn-primary" value="獲取驗證碼" onclick="settime(this)" />
+                        </div>
+                    </div>
+                    <small class="text_otp remind"><u class="icon-i_hand mr-1"></u>已發送驗證碼到您的手機，請查收簡訊並輸入驗證碼。</small>
+                    <small class="text_error remind"><u class="icon-i_hand mr-1"></u>您的驗證碼已失效，請重新【獲取驗證碼】</small>
+                </div>
+                <div class="form-group">
                     <input class="form-control" type="password" placeholder="設定密碼">
                 </div>
                 <div class="form-group">
@@ -560,5 +577,40 @@
 <script src="./Source/js/zh-cht/vendor/jquery.magnific-popup.min.js"></script>
 <script src="./Source/js/zh-cht/vendor/sticky-sidebar.min.js"></script>
 <script src="./Source/js/zh-cht/main.js"></script>
+<script type="text/javascript">
+    var countdown = 60;
+    var verify_code = '123123';
+    
+    $('.text_otp, .text_error').hide();  // 隱藏提示訊息
+
+    function settime(obj) {
+        if (countdown == 0) {
+            obj.removeAttribute("disabled");
+            obj.value = "獲取驗證碼";
+            // countdown = 60;
+            $('.text_otp').hide();
+            return;
+        }else {
+            obj.setAttribute("disabled", true);
+            obj.value = countdown + "s 後重試";
+            countdown--;
+            $('.text_otp').fadeIn(300);
+        }
+        setTimeout(function() {
+            settime(obj)
+        }, 1000)
+    }
+
+    //核對驗證碼
+    $('#verifyINPUT').on('input', function() {
+    var verifyINPUT = $(this).val();  // 取得輸入框的值
+        // 確保 verifyINPUT 是正確的輸入值
+        if (verifyINPUT.trim() !== "" && verifyINPUT !== verify_code) {
+            $('.text_error').fadeIn(300);  // 顯示錯誤訊息
+        } else {
+            $('.text_error').hide();  // 隱藏錯誤訊息
+        }
+    });
+</script>
 
 </html>
