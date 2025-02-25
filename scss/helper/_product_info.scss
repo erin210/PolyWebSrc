@@ -312,6 +312,76 @@
             color: #333333;
             font-size: 1rem;
         }
+        ul{
+            border-top: 1px solid $gray-600;
+            border-bottom: 1px solid $gray-600;
+            margin: 0;
+            padding: 1em 0;
+        }
+        li{
+            display: flex;
+            margin-left: 0;
+            margin-bottom: .5em;
+            font-size: 14px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            div{
+                width: 25%;
+                padding-right: .8em;
+                &.text_left{
+                    width: 80%;
+                }
+            }
+        }
+        .bg-mark{
+            width: fit-content;
+            display: flex;
+            span{
+                display: flex;
+                align-items: center;
+                padding: 0 .35em 0 .5em;
+                background-color: $gray-700;
+                color: $white;
+                line-height: 1;
+                b{
+                    width: 3.8em;
+                    padding: 0;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    &.text-2{
+                        // width: 4em;
+                        letter-spacing: 1.9em;
+                    }
+                    &.text-3{
+                        // width: 4em;
+                        letter-spacing: .4em;
+                    }
+                    &.text-4{
+                        // width: 4.3em;
+                        letter-spacing: -.05em;
+                    }
+                }
+            }
+            .icon_arrow_right {
+                font-size: 10px;
+                margin-left: .3em;
+                margin-right: 0;
+                margin-bottom: 3px;
+                @include media-breakpoint-down(sm){
+                    margin-bottom: -1px;
+                }
+                // i{ 
+                //     margin-bottom: 0;
+                //     padding-top: 0.1em;
+                // }
+                // u{
+                //     // border: 1px solid red;
+                //     margin-right: 0;
+                // }
+            }
+    
+        }
 
     }
     .pdOthers {
