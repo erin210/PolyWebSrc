@@ -927,9 +927,9 @@
                                             <i class="icon"><u class="icon-i_xx"></u></i>
                                         </span>
                                         <div class="popup_info">
-                                            <div class="popup_info_scroll py-4">
+                                            <div class="popup_info_scroll">
                                                 <fieldset>
-                                                    <div class="sizeinfo" name="sizeAnchor" id="sizeAnchor">
+                                                    <div class="sizeinfo" name="sizeAnchor">
                                                 
                                                         <div class="product-heading"><img src="http://photo.polylulu.com.tw/photo/0.web/14newweb/txt-img2_PL.png" alt=""
                                                                 title=""><i class="icon-product"></i> <small>商品尺寸表</small></div>
@@ -1068,8 +1068,29 @@
                                                             </div>
                                                 
                                                         </div>
-                                                
-                                                        <div class="editor-block" style="margin-top:50px;">
+                                                <!-- 移走 <div class="right-table">...</div> 區塊到外面 -->
+                                                <!-- 移走 試穿報告表 區塊到 MODEL尺寸 那邊 -->
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- popup ed-->
+                                </li>
+                                <li class="pd_model_size"><a class="popup-with-form popup_link"
+                                       href="#modelPP"
+                                       title=""><i class="icon"><u class="icon-i_hanger"></u></i>
+                                        <span>MODEL尺寸</span></a>
+                                    <!-- popup op-->
+                                    <div id="modelPP"
+                                         class="mfp-hide white-popup-block">
+                                        <span class="btnClose">
+                                            <i class="icon"><u class="icon-i_xx"></u></i></span>
+                                        <div class="popup_info">
+                                            <div class="popup_info_scroll">
+                                                <fieldset>
+                                                    <div class="sizeinfo" name="sizeAnchor">
+                                                        <div class="editor-block">
                                                             <div class="" name="sizeAnchor">
                                                                 <div class="product-heading"><img src="https://photo.polylulu.com.tw/photo/0.web/14newweb/txt-img4.png"
                                                                         alt="" title=""><i class="icon-product"></i><small>試穿報告表</small></div>
@@ -1119,7 +1140,6 @@
                                                                                 <td>23</td>
                                                                                 <td>2XL</td>
                                                                             </tr>
-                                                
                                                                         </tbody>
                                                                     </table>
                                                                 </div>
@@ -1127,23 +1147,7 @@
                                                         </div>
                                                     </div>
                                                 </fieldset>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- popup ed-->
-                                </li>
-                                <li class="pd_model_size"><a class="popup-with-form popup_link"
-                                       href="#modelPP"
-                                       title=""><i class="icon"><u class="icon-i_hanger"></u></i>
-                                        <span>MODEL尺寸</span></a>
-                                    <!-- popup op-->
-                                    <div id="modelPP"
-                                         class="mfp-hide white-popup-block">
-                                        <span class="btnClose">
-                                            <i class="icon"><u class="icon-i_xx"></u></i></span>
-                                        <div class="popup_info">
-                                            <div class="popup_info_scroll">
-                                                <h1 class="basicTitle">model 's stature<span>Model 尺寸表</span></h1>
+                                                <!-- <h1 class="basicTitle">model 's stature<span>Model 尺寸表</span></h1> -->
                                                 <div class="modelBox">
                                                     <figure class="model_card_pc">
                                                         <img src="./Source/images/zh-cht/assets/model-card.jpg"
